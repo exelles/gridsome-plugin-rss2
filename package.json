@@ -1,6 +1,6 @@
 {
-  "name": "gridsome-plugin-rss",
-  "version": "1.2.0",
+  "name": "gridsome-plugin-feed",
+  "version": "0.0.1",
   "description": "Generate an RSS feed from your Gridsome data store",
   "homepage": "https://github.com/brandonpittman/gridsome-plugin-feed/tree/master",
   "repository": {
