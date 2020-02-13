@@ -2,17 +2,28 @@
   "name": "gridsome-plugin-rss",
   "version": "1.2.0",
   "description": "Generate an RSS feed from your Gridsome data store",
-  "homepage": "https://github.com/darthmeme/gridsome-plugin-rss/tree/master",
-  "repository": "https://github.com/darthmeme/gridsome-plugin-rss/tree/master/#readme",
+  "homepage": "https://github.com/brandonpittman/gridsome-plugin-feed/tree/master",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brandonpittman/gridsome-plugin-feed/tree/master/#readme"
+  },
   "main": "index.js",
-  "author": "Akira Laine <akira_laine@outlook.com>",
-  "license": "ISC",
+  "author": "Brandon Pittman",
+  "license": "MIT",
   "dependencies": {
     "rss": "^1.2.2"
   },
   "keywords": [
     "gridsome",
     "gridsome-plugin",
-    "rss"
-  ]
+    "rss",
+    "xml",
+    "feed"
+  ],
+  "scripts": {
+    "test": "xo --fix"
+  },
+  "devDependencies": {
+    "xo": "^0.26.0"
+  }
 }
