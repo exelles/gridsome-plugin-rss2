@@ -1,10 +1,10 @@
-# gridsome-plugin-rss
+# gridsome-plugin-syndication
 
 > Generate an RSS feed from your Gridsome data store
 
 ## Install
-- `yarn add gridsome-plugin-rss`
-- `npm install gridsome-plugin-rss`
+- `yarn add gridsome-plugin-syndication`
+- `npm install gridsome-plugin-syndication`
 
 ## Usage
 
@@ -12,7 +12,7 @@
 module.exports = {
   plugins: [
     {
-      use: 'gridsome-plugin-rss',
+      use: 'gridsome-plugin-syndication',
       options: {
         contentTypeName: 'BlogPost',
         feedOptions: {
@@ -99,7 +99,7 @@ BlogPost.addNode({
 
 ...
 
-// In the options for gridsome-plugin-rss
+// In the options for gridsome-plugin-syndication
 feedItemOptions: node => ({
   title: node.title,
   description: node.description,
